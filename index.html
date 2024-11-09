@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Eminem</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tp-20c.css">
+</header>
+
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero-image">
+    </div>
+
+    <!-- Button Group Section -->
+    <div class="container text-center my-4">
+        <h2>Redes Sociales</h2>
+        <div class="btn-group" role="group">
+            <div class="container text-center my-4">
+                <a href="https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR" class="btn btn-primary" target="_blank">Spotify</a>
+                <a href="https://x.com/Eminem?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn btn-secondary" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/eminem/" class="btn btn-dark" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container my-5">
+        <h2>Álbumes populares</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="marshall.jpeg" class="card-img-top" alt="Álbum 1">
+                    <div class="card-body">
+                        <h5 class="card-title">The Marshall Mathers LP (2000)</h5>
+                        <p class="card-text">Este álbum es considerado uno de los más influyentes de la historia del hip-hop y catapultó a Eminem al estrellato internacional. Con una mezcla de humor negro, introspección y controversia, The Marshall Mathers LP aborda temas como la fama, la crítica social y su conflictiva relación con los medios y su familia. Canciones icónicas como "Stan" muestran la capacidad de Eminem para contar historias complejas y emocionalmente cargadas, mientras que "The Real Slim Shady" ofrece una sátira sobre su estatus como celebridad y los estándares de la industria musical. El álbum fue un éxito comercial y ganó múltiples premios, incluyendo un Grammy al Mejor Álbum de Rap.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="eminem-show.jpeg" class="card-img-top" alt="Álbum 2">
+                    <div class="card-body">
+                        <h5 class="card-title">The Eminem Show (2002)</h5>
+                        <p class="card-text">The Eminem Show es un álbum en el que Eminem toma un enfoque más introspectivo, discutiendo las realidades de la fama, la censura y la política. Fue lanzado en un momento en que Eminem enfrentaba una gran presión mediática y legal, y en este trabajo, muestra un equilibrio entre su crítica social y su vida personal. Temas como "Without Me" critican la cultura pop y el estado de la industria musical, mientras que "Cleanin' Out My Closet" es una confesión personal que aborda su relación con su madre. "Sing for the Moment" utiliza un sample de "Dream On" de Aerosmith, subrayando su lucha por ser comprendido y aceptado en el mundo de la música. Este álbum consolidó aún más su estatus y recibió elogios tanto de críticos como de fans.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="encore.jpg" class="card-img-top" alt="Álbum 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Encore (2004)</h5>
+                        <p class="card-text">Encore fue lanzado en un momento en que Eminem ya había alcanzado un estatus de superestrella, y el álbum refleja tanto su éxito como las críticas y controversias que lo rodeaban. Aunque no tan aclamado como sus predecesores, este álbum incluye varios éxitos comerciales y demuestra su habilidad para combinar humor y comentarios sociales. Canciones como "Like Toy Soldiers" abordan su papel en las rivalidades del hip-hop y las consecuencias de estas, mientras que "Mockingbird" es una de sus canciones más personales, dedicada a su hija Hailie, mostrando un lado más vulnerable y paternal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Section -->
+    <div id="eminemCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="emin-1.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="emin-2.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="emin-3.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#eminemCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#eminemCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Collapse Section -->
+    <div class="container my-5">
+        <h2>Biografía</h2>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#bioCollapse" aria-expanded="false" aria-controls="bioCollapse">
+            Mostrar Biografía
+        </button>
+        <div class="collapse" id="bioCollapse">
+            <div class="card card-body mt-3">
+                <h4>Biografía de Eminem</h4>
+
+                    <h5>Nombre real:</h5> <p>Marshall Bruce Mathers III</p>
+                <h5>Fecha de nacimiento:</h5> <p>17 de octubre de 1972</p>
+                <h5>Lugar de nacimiento:</h5> <p>St. Joseph, Misuri, Estados Unidos</p>
+                    
+                <p>Eminem, conocido artísticamente como Slim Shady, es un rapero, compositor y productor estadounidense. Se convirtió en una de las figuras más influyentes y exitosas en la música hip-hop, y ha sido aclamado tanto por su habilidad lírica como por su capacidad para contar historias a través de sus canciones.</p>
+                    
+                    <h5>Infancia y juventud</h5>
+                        <br>
+                    <p>Eminem creció en un entorno difícil en Detroit, Michigan, enfrentando problemas de pobreza y violencia familiar. Su infancia estuvo marcada por constantes mudanzas y conflictos, especialmente con su madre, Debbie Mathers. Desde joven, mostró interés por la música y comenzó a escribir poesía y rap en su adolescencia. A pesar de enfrentar el racismo y la discriminación como un rapero blanco en una cultura predominantemente negra, Eminem perseveró y ganó notoriedad en la escena del rap local.</p>
+                    <br>
+
+                <h5> Carrera temprana</h5>
+                <br>
+                <p> Eminem lanzó su primer álbum, Infinite, en 1996, pero no tuvo éxito comercial. Sin embargo, llamó la atención de Dr. Dre, un productor de renombre, quien ayudó a lanzar su carrera. En 1999, Eminem lanzó The Slim Shady LP, que fue un gran éxito, vendiendo más de 5 millones de copias en Estados Unidos y ganando un Grammy al Mejor Álbum de Rap.
+                    <br>    
+
+                <h5> Ascenso a la fama</h5>
+                <br>
+                <p>El segundo álbum de Eminem, The Marshall Mathers LP (2000), consolidó su estatus como una superestrella. Con canciones provocadoras y autobiográficas, el álbum abordó su vida personal, la fama y las críticas que enfrentó. Temas como "Stan" y "The Real Slim Shady" se convirtieron en clásicos.
+                    
+                    A lo largo de los años, Eminem continuó lanzando álbumes exitosos, como The Eminem Show (2002) y Encore (2004), que lo llevaron a ser uno de los artistas más vendidos de todos los tiempos.
+                    <br>
+
+                <h5> Luchas personales</h5>
+                <br>
+                <p>A pesar de su éxito, Eminem ha enfrentado numerosas luchas personales, incluyendo problemas de adicción a las drogas y dificultades en sus relaciones personales. Su batalla contra la adicción se hizo evidente en su álbum Relapse (2009), donde aborda sus luchas y recuperaciones.
+                    <br>
+
+                <h5> Renacimiento y éxito continuo</h5>
+                <br>
+                <p> En 2010, Eminem lanzó Recovery, un álbum que marcó un regreso significativo en su carrera, donde mostró un enfoque más maduro y reflexivo sobre su vida y sus luchas. A partir de ahí, continuó lanzando álbumes exitosos como The Marshall Mathers LP 2 (2013) y Kamikaze (2018).
+                    <br>  
+
+                <h5> Legado</h5>
+                <br>
+                <p>Eminem ha recibido numerosos premios y reconocimientos, incluyendo múltiples Grammy y un Oscar por la canción "Lose Yourself" de la película 8 Mile (2002). Su impacto en la música y la cultura popular es indiscutible, y es considerado uno de los raperos más influyentes de todos los tiempos.
+                    
+                    Además de su carrera musical, Eminem ha incursionado en la producción y ha fundado su propia discográfica, Shady Records. Su habilidad para superar adversidades y su autenticidad en la música han resonado con millones de fans alrededor del mundo.
+                    <br>
+
+                <h5> Conclusión</h5>
+<br>
+                <p> A lo largo de su carrera, Eminem ha sido una voz poderosa y provocadora, utilizando su plataforma para abordar temas sociales, personales y culturales. Su legado perdura y su música sigue siendo relevante en la actualidad.</p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offcanvas Section -->
+    <div class="container my-5">
+        <h2>Menu</h2>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+            Abrir Menú
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menú</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Biografía</p>
+                <p>Discografía</p>
+                <p>Premios</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Section -->
+    <div class="container my-5">
+        <h2>Notificación</h2>
+        <button class="btn btn-warning" id="toastBtn">Mostrar Notificación</button>
+        <div class="toast align-items-center text-bg-warning border-0 mt-3" role="alert" aria-live="assertive" aria-atomic="true" id="eminemToast">
+            <div class="d-flex">
+                <div class="toast-body">
+                    ¡Nuevo álbum de Eminem disponible!
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('toastBtn').addEventListener('click', () => {
+            const toast = new bootstrap.Toast(document.getElementById('eminemToast'));
+            toast.show();
+        });
+    </script>
+</body>
+</html>
